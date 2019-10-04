@@ -44,6 +44,7 @@
  */
 
 
+/*
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -207,5 +208,11 @@ int main () {
 
 //    linked_list_print (l1, 20);  // valgrind warning - invalid read
 
+    return 0;
+}
+*/
+
+
+int main () {
     return 0;
 }

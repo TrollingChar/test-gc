@@ -3,4 +3,4 @@ project(oop C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(oop main.c gc.c gc.h)
+add_executable(oop main.c gc.c gc.h classes.h)

@@ -19,12 +19,10 @@ struct collectible_t {
 };
 
 
-void collectible_trivial_set_mark (struct collectible_t *this) {
-    this->marked = 1;
-}
+void collectible_trivial_set_mark (struct collectible_t *this);
 
 
-void   gc_init      ();
+void   gc_init      (size_t n_roots_, size_t n_ptrs_);
 size_t gc_state     ();
 void   gc_set_state (size_t state);
 void  *gc_alloc     (size_t size);

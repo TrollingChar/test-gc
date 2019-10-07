@@ -217,5 +217,7 @@ int main () {
 
 
 int main () {
+    gc_init (60000, 60000);
+    gc_fin ();
     return 0;
 }

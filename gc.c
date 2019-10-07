@@ -84,3 +84,8 @@ void gc_collect () {
         }
     }
 }
+
+
+void collectible_trivial_set_mark (struct collectible_t *this) {
+    this->marked = 1;
+}
